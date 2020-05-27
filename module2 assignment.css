@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding:0px; 
+  border-color: black; 
+  
+   
+  
+}
+h1 {
+  
+  text-align:center; 
+  margin-top:100px; 
+  color:solid black;
+  font-weight:50px;   
+}
+p {
+   text-align:center; 
+  font font-family:Helvetica;
+   font-weight: bold; 
+       font-size:23px; 
+  }
+
+  h4{
+    text-align:center; 
+  } 
+ 
+#first {
+    width: 600px;
+    height: 200px;
+    background: red;
+    margin-top:300px;
+    margin-left:100px; 
+    background-color:#787d9c;
+    border: solid black; 
+
+  padding: 0px;
+
+    
+
+
+}
+#first #second{
+    width: 35%;
+    height: 30%;
+    padding:0px;
+    margin-left:390px; 
+    font-weight: bold;
+    font-size:30px; 
+    border: solid black;
+    margin-top:0px; 
+     
+   
+
+
+
+}
+#b1{
+  background color:#FFB6C1;
+  font color: solid black; 
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1 {
+    float: left;
+
+    
+  }
+  .row.col-lg-1 {
+    
+    margin-left: 40px;
+
+  }
+}
+  @media screen and ( max-width: 767px){
+
+  
+  .row .col-ls-1{
+    width:90%;
+    padding: 0px;
+    float: none;
+        margin-left :20px;
+  }
+}
+
+@media screen and( min-width: 768px)and  (  max-width: 991px){
+  .row{
+    width:100%;
+  }
+  
+    .row  .col-md-1 {
+    width:50%;
+    
+    margin left: 50px;
+  }
+
+}
+
+
